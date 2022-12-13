@@ -1,11 +1,11 @@
 ﻿Console.WriteLine("Enter the length of the array:  ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
-RandonNumbers(numbers);
-Console.WriteLine("In this array: ");
+RandomNumbers(numbers);
+Console.WriteLine("This is array: ");
 PrintArray(numbers);
 
-void RandonNumbers(int[] numbers)
+void RandomNumbers(int[] numbers)
 {
     for(int i = 0; i < size; i++)
     {
